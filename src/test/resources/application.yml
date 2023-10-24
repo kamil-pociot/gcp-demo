@@ -3,4 +3,5 @@ spring:
     gcp:
       firestore:
         project-id: test-project
-        emulator.enabled: true
+        emulator:
+          enabled: true
