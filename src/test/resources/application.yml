@@ -1,0 +1,6 @@
+spring:
+  cloud:
+    gcp:
+      firestore:
+        project-id: test-project
+        emulator.enabled: true
