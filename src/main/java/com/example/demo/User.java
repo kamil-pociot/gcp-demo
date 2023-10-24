@@ -15,5 +15,7 @@ import lombok.Setter;
 public class User {
 
     @DocumentId
-    String id;
+    private String id;
+    private String first;
+    private String last;
 }
